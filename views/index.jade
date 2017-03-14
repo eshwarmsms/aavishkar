@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  div(id='cover')
+    div(id='branding')
+      h1= title
+  div
+    a(href="#cover2", class="scroll")
+  div(id='cover2')
+    h1= title
+    p Welcome to #{title}
