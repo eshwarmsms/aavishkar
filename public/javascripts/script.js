@@ -1,4 +1,3 @@
-
 var colors = new Array(
   [62,35,255],
   [60,255,60],
@@ -66,10 +65,10 @@ $(document).ready(function(){
   $(window).scroll(function(){
     if ($(this).scrollTop() < 100) {
       $('.scroll').fadeIn();
-      $('nav').fadeOut();
+      $('nav').fadeOut(100);
     } else {
       $('.scroll').fadeOut();
-      $('nav').fadeIn();
+      $('nav').fadeIn(100);
     }
   });
     
@@ -80,3 +79,11 @@ $(document).ready(function(){
   });
 
 });
+
+var docEl = doc.documentElement;
+
+var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+
+if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+  requestFullScreen.call(docEl);
+}
