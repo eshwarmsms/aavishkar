@@ -20,16 +20,16 @@ nav{
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes arrow {
-    0%   {-webkit-transform: translateY(0px);}
-    50%  {-webkit-transform: translateY(15px);}
-    100% {-webkit-transform: translateY(0px);}
+    0%   {-webkit-transform: translateY(0px) translateX(-25%);}
+    50%  {-webkit-transform: translateY(15px) translateX(-25%);}
+    100% {-webkit-transform: translateY(0px) translateX(-25%);}
 }
 
 /* Standard syntax */
 @keyframes arrow {
-    0%   {transform: translateY(0px);}
-    50%  {transform: translateY(15px);}
-    100% {transform: translateY(0px);}
+    0%   {transform: translateY(0px) translateX(35px);}
+    50%  {transform: translateY(15px) translateX(35px);}
+    100% {transform: translateY(0px) translateX(35px);}
 }
 .scroll{
 	width:50px; 
@@ -45,7 +45,7 @@ nav{
   right: 50%;
   /*-webkit-transform: translateX(-25%);
   -ms-transform: translateX(-50%);*/
-  /*transform: translateX(-25%);*/
+  transform: translateX(35px);
   /*display: inline-block;*/
 	background: url('/images/down.png') no-repeat 0px 20px;
   background-size: contain;
@@ -75,12 +75,14 @@ nav{
 #cover2{
   width: 100%;
   height: 100%;
+  padding-top: 50px; 
   background: #005587;
   background-size: cover;
-  border: 3px solid orange;
+  border: 0px solid orange;
   box-sizing: border-box;
   text-align: center;
   padding: 30px;
+  color: white;
 }
 a {
   color: #00B7FF;
