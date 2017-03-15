@@ -17,6 +17,7 @@ nav{
   z-index: 100;
   border: 1px white;
   background: #aaa;
+  display: none;
 }
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes arrow {
@@ -43,10 +44,10 @@ nav{
 	bottom:75px;
   margin: 0 auto;
   right: 50%;
-  /*-webkit-transform: translateX(-25%);
-  -ms-transform: translateX(-50%);*/
+  -webkit-transform: translateX(35px);
+  -ms-transform: translateX(35px);
   transform: translateX(35px);
-  /*display: inline-block;*/
+  font: 10px;
 	background: url('/images/down.png') no-repeat 0px 20px;
   background-size: contain;
   animation: arrow 2s infinite;
@@ -68,6 +69,7 @@ nav{
   font: 25px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: navajowhite;
   align-self: center;
+  text-align: center;
 }
 #next{
   align-self: flex-end;
@@ -86,6 +88,7 @@ nav{
 }
 a {
   color: #00B7FF;
+  font: 10px;
 }
 #top-space{
   position: absolute;
