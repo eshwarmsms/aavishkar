@@ -2,7 +2,15 @@ extends layout
 
 block content
   nav
-    img(src="/images/ieeelogo.png", style="height:80%; margin:auto;")
+    img(src="/images/aavishkar.png")
+    a(href="#about") ABOUT 
+    a(href="#events") EVENTS
+    a(href="#seminars") SEMINARS
+    a(href="#schedule") SCHEDULE
+    a(href="#venue") VENUE
+
+    img(src="/images/ieeelogo.png", class="right")
+
   div(id='logos')
     img(src="/images/ramaiah.png", class='logo')
     img(src="/images/ieeeramaiah.png", class='logo')
@@ -11,9 +19,17 @@ block content
       img(src="/images/aavishkar.png",style="width:80%;")
       h3 MARCH 24-25 2017
   div
-    a(href="#cover2", class="scroll")
-  div(id='cover2')
+    a(href="#content", class="scroll")
+  div(id='content')
     div(id='top-space')
-    h1 Welcome to #{title}
-    br
-    h3 Events
+    div(id="about")
+      h1 ABOUT
+    div(id="events")
+      h1 EVENTS
+    div(id="seminars")
+      h1 SEMINARS
+    div(id="schedule")
+      h1 SCHEDULE
+    div(id="venue")
+      h1 VENUE
+  div(id="footer")
