@@ -20,18 +20,14 @@ nav{
   display: none;
   box-sizing: border-box;
 }
-@media screen and (max-width:400px){
-  nav #nav-content{
+@media screen and (max-width:800px){
+  #nav-content{
     display: none;
-  }
-  nav a{
-    color: black;
   }
 }
 nav #nav-content{
     display: inline-block;
     width: 100%;
-    overflow:hidden
 }
 nav #nav-content a{
   padding: 10px;
@@ -127,15 +123,14 @@ nav img{
   align-self: flex-end;
 }
 #content{
-  width: 100%;
   height: 100%;
   padding-top: 50px; 
   background: #444;
-  background-size: cover;
-  border: 0px solid orange;
   box-sizing: border-box;
-  text-align: center;
   color: white;
+}
+.page{
+
 }
 a {
   font: 10px;
@@ -153,3 +148,25 @@ a {
   text-align: left;
   padding-left: 30px;
 }
+/*#about{
+  text-align: center;
+}
+#about #content{
+  width:80%;
+  background-color: rgba(200, 200, 200, .2);
+  height: 60%;
+  display: inline-block;
+  padding-top: 10px;
+}
+#about #content #images{
+  width: 50%;
+  box-sizing: border-box;
+  margin: 0px;
+  display: inline-block;
+}
+#about #content #info{
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: inline-block;
+}*/
