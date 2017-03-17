@@ -20,25 +20,33 @@ nav{
   display: none;
   box-sizing: border-box;
 }
-nav a{
+@media screen and (max-width:400px){
+  nav #nav-content{
+    display: none;
+  }
+  nav a{
+    color: black;
+  }
+}
+nav #nav-content{
+    display: inline-block;
+    width: 100%;
+    overflow:hidden
+}
+nav #nav-content a{
   padding: 10px;
   text-decoration: none;
   margin: 2px;
   color: white;
 }
-nav a:active{
-  text-decoration: none;
-  background-color: rgba(50, 50, 50, .2);
-  border-radius: 5px;
-}
-nav a:hover{
+nav #nav-content a:hover{
   text-decoration: none;
   background-color: rgba(50, 50, 50, .2);
   border-radius: 5px;
 }
 nav img{
   padding: 5px; 
-  height:80%; 
+  height:40px; 
   margin:auto; 
   margin-left:20px; 
   vertical-align:middle;
