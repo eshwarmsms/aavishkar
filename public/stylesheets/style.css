@@ -134,6 +134,17 @@ nav img{
   box-sizing: border-box;
   padding-bottom: 30px;
 }
+@media (max-width:1500px){
+  .page{
+    padding: 40px;
+  }
+}
+@media (max-width:500px){
+  .page h1{
+    padding: 10px;
+    padding: 0px;
+  }
+}
 a {
   font: 10px;
 }
@@ -205,7 +216,7 @@ a {
 }
 @media (max-width:500px){
   #map{
-    width: 90%;
+    width: 100%;
   }
 }
 #venue{
