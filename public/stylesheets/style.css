@@ -198,8 +198,18 @@ a {
   background-color: lightseagreen;
   color: black;
 }
+@media (max-width:1500px){
+  #map{
+    width: 50%;
+  }
+}
+@media (max-width:500px){
+  #map{
+    width: 90%;
+  }
+}
 #venue{
-  background-color: sandybrown;
+  background-color: white;
   color: black;
 }
 #footer{
