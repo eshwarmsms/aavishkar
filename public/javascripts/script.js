@@ -83,8 +83,16 @@ $(document).ready(function(){
       $('nav').fadeIn(100);
     }
   });
-    
-  //Click event to scroll to top
+
+  // if($('#about').scroll()<10){
+  //   document.getElementById("about-ref").style.backgroundColor = "rgba(50, 50, 50, .2)";
+  //   document.getElementById("about-ref").style.borderRadius="5px";
+  // }
+  // else{
+  //   document.getElementById("about-ref").style.backgroundColor = "rgba(50, 50, 50, 0)";
+  //   document.getElementById("about-ref").style.borderRadius="5px";
+  // }
+
   $('.scroll').click(function(){
     $('html, body').animate({scrollTop : $("#content").offset().top},300);
     return false;
