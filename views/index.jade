@@ -2,8 +2,15 @@ extends layout
 
 block content
   nav
+    div( id="sidenav", class="sidenav")
+      img(src='/images/menu.png', onClick="closeNav()", class="closebtn" )
+      a(href="#about") ABOUT 
+      a(href="#events") EVENTS
+      a(href="#seminars") SEMINARS
+      a(href="#schedule") SCHEDULE
+      a(href="#venue") VENUE
     div(id='ham')
-      img(src='/images/menu.png')
+      img(src='/images/menu.png', onClick="openNav()")
     div(id='nav-content')
       img(src="/images/aavishkar.png")
       a(href="#about") ABOUT 

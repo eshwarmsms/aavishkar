@@ -62,6 +62,15 @@ var color2 = "rgb("+r2+","+g2+","+b2+")";
 
 setInterval(updateGradient,10);
 
+function openNav() {
+    document.getElementById("sidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+    document.getElementById("sidenav").style.width = "0";
+}
+
 $(document).ready(function(){
 	
 	//Check to see if the window is top if not then display button
