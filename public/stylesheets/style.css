@@ -20,13 +20,20 @@ nav{
   display: none;
   box-sizing: border-box;
 }
-@media screen and (max-width:800px){
+
+#ham{
+  display: none;
+}
+@media (max-width:900px){
   #nav-content{
     display: none;
   }
+  #ham{
+    display: inline-block;
+    margin-left: -20px;
+  }
 }
 nav #nav-content{
-    display: inline-block;
     width: 100%;
 }
 nav #nav-content a{
