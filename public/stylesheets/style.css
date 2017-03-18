@@ -130,7 +130,7 @@ nav img{
 .page{
   width: 100%;
   min-height: 80%;
-  padding-left: 30px;
+  /*padding-left: 30px;*/
   box-sizing: border-box;
   padding-bottom: 30px;
 }
