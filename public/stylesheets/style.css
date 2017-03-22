@@ -186,12 +186,13 @@ nav img{
   padding-bottom: 30px;
 }
 @media (max-width:1500px){
-  .page{
+  .page, #about{
     padding: 40px;
   }
+  
 }
 @media (max-width:500px){
-  .page h1{
+  .page h1, #about h1{
     padding: 10px;
   }
 }
@@ -208,6 +209,9 @@ a {
   text-align: center;
   background: white;
   color: grey;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 40px;
 }
 #about h1{
   text-align: left;
