@@ -236,8 +236,8 @@ a {
   color: antiquewhite;
 }
 #list{
-  width: 90%;
-  border: 1px solid black;
+  width: 95%;
+  /*border: 1px solid black;*/
   display: flex;
   margin: auto;
   flex-wrap:wrap;
@@ -245,10 +245,26 @@ a {
 
 }
 #list #list-item{
+  /*background-image: url(/image/aa);*/
+  background-position: center;background-size: contain; background-repeat: no-repeat;
   height: 300px;
   width: 340px;
   margin: 10px;
   border: 1px solid lightblue;
+  box-sizing: border-box;
+}
+#list #list-item #picture{
+  /*position: absolute;*/
+  height: 60%;
+  /*border: 1px solid black;*/
+  box-sizing: border-box;
+}
+#list #list-item #info{
+  /*position: absolute;*/
+  height: 40%;
+  /*border: 1px solid brown;*/
+  box-sizing: border-box;
+  text-align: center;
 }
 #seminar{
   background-color: lightblue;
