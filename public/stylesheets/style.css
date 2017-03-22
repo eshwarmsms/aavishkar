@@ -220,6 +220,7 @@ a {
   min-width: 340px;
   padding-top: 10px;
   color: black;
+  box-sizing: border-box;
 }
 /*#about #content #images{
   width: 50%;
