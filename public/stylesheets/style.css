@@ -212,11 +212,14 @@ a {
   text-align: left;
 }
 #about #content{
-  background-color: dimgrey;
+  background-color: lightblue;
   height: 60%;
   display: inline-block;
+  line-height: 2;
+  width: 70%;
+  min-width: 340px;
   padding-top: 10px;
-  color: white;
+  color: black;
 }
 /*#about #content #images{
   width: 50%;
